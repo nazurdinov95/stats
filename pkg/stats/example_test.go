@@ -24,7 +24,7 @@ func ExampleAvg()  {
 	// Output: 150
 }
 
-func ExampleTotaleInCategory()  {
+func ExamplTotaleInCategory()  {
 	payments := []types.Payment {
 		{
 			ID: 1,
@@ -37,7 +37,7 @@ func ExampleTotaleInCategory()  {
 			Category: "аптеки",
 		},
 	}
-		result := TotaleInCategory(payments, "авто")
+		result := TotalInCategory(payments, "авто")
 		fmt.Println(result)
 		//Output: 100
 }
