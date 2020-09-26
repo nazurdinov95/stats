@@ -6,7 +6,7 @@ import (
 )
 
 
-func ExampleAverage()  {
+func ExampleAvg()  {
 	payments := []types.Payment{
 	{
 		ID: 1,
@@ -19,12 +19,12 @@ func ExampleAverage()  {
 		Category: "аптеки",
 	},
 }
-	result := Average(payments)
+	result := Avg(payments)
 	fmt.Println(result)
 	// Output: 150
 }
 
-func ExampleTotalAmountInCategory()  {
+func ExampleTotaleInCategory()  {
 	payments := []types.Payment {
 		{
 			ID: 1,
@@ -37,7 +37,7 @@ func ExampleTotalAmountInCategory()  {
 			Category: "аптеки",
 		},
 	}
-		result := TotalAmountInCategory(payments, "авто")
+		result := TotaleInCategory(payments, "авто")
 		fmt.Println(result)
 		//Output: 100
 }
