@@ -5,16 +5,17 @@ import (
 )
 
 // Avg рассчитывает среднюю сумму платежа.
-func Avg(payments []types.Payment) types.Money{
+func Avg(payments []types.Payment) types.Money {
 	avg := types.Money(0)
+	var i = 0
 	for _, payment := range payments {
-		if payment.Status !=types.StatusFail {
+		if payment.Status != types.StatusFail {
 			avg += payment.Amount
+			i++
 		}
-
 	}
 
-	return avg / types.Money (len(payments))
+	return avg /types.Money(i)
 }
 
 // TotalInCategory находит сумму покупок в определённой категории.
