@@ -1,5 +1,5 @@
-module github.com/nazurdinov95/stats
+module github.com/nazurdinov95/stats/v2
 
 go 1.15
 
-require github.com/nazurdinov95/bank v0.0.0-20200926151107-7240f4250140
+require github.com/nazurdinov95/bank/v2 v2.0.0
