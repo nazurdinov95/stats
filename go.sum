@@ -1,7 +1,2 @@
-github.com/nazurdinov95/bank v0.0.0-20200926151107-7240f4250140 h1:rXYgKBhQ4ynOLc2GA9YCBFPCtW0Gu9il4DLq9wnt1Uw=
-github.com/nazurdinov95/bank v0.0.0-20200926151107-7240f4250140/go.mod h1:XOl1peQJtG4rQupVSca8MarYpugtIZFXfktu68dKdm0=
-github.com/nazurdinov95/bank v1.0.0 h1:Mb/uD8EWhk5MS9d5qJlOJxS4zqJlHexJLxiCWOZgciE=
 github.com/nazurdinov95/bank/v2 v2.0.0 h1:cyIc3+fIBDnlmlKJ7AoTxy+Fwsxps5ehe8vjfOtgW6Q=
 github.com/nazurdinov95/bank/v2 v2.0.0/go.mod h1:sOOuH1d6LoZw7uc8DTgzhdLKRC4ubS07eIeh2oMIRQY=
-github.com/nazurdinov95/stats v1.0.0 h1:DNc7YeE12PiDONPjAYLP/Ni7uDkyLH+2Xl5LcKj3h10=
-github.com/nazurdinov95/stats v1.0.0/go.mod h1:mYRevv9eGQJs7Z2XfQCi8iyqA5BTmsr2plsneHyUivY=
