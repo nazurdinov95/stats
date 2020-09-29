@@ -52,3 +52,21 @@ func CategoriesAvg(payments []types.Payment) map[types.Category]types.Money {
 	}
 	return mp
 	}
+
+	//расчитывает сезоный расход
+	func PeriodsDynamic(first map[types.Category]types.Money, second map[types.Category]types.Money,
+		) map[types.Category]types.Money{
+		categoriesSeasons:= map[types.Category]types.Money{}
+		if len(first)>=len(second){
+			for  value := range first {
+				categoriesSeasons[value]=second[value]-first[value]
+		
+	}
+	return categoriesSeasons
+
+}
+		for  value := range second {
+		categoriesSeasons[value]=second[value]-first[value]
+		}
+	return categoriesSeasons
+}
